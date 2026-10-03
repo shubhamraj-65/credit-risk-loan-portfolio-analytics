@@ -340,3 +340,81 @@ Interactive Dashboard
    ↓
 Business Insights
 ```
+
+📁 Repository Structure
+
+credit-risk-loan-portfolio-analytics/
+│
+├── 📁 Dashboard/
+│   ├── Credit Risk & Loan Analysis.pbix
+│   ├── Executive_Overview.png
+│   └── Credit_Risk_Deep_Dive.png
+│
+├── 📁 Data/
+│   ├── credit_ratings.csv
+│   ├── loan_portfolio.csv
+│   ├── macro_stress_scenarios.csv
+│   ├── portfolio_metrics.csv
+│   └── vintage_analysis.csv
+│
+├── 📁 Documentation/
+│   ├── data_model.png
+│   └── credit_risk_column_descriptions.txt
+│
+├── 📁 DAX/
+│   └── DAX_Measures.md
+│
+└── 📄 README.md
+
+🚀 Skills Demonstrated
+
+This project demonstrates practical experience in:
+
+Power BI Dashboard Development
+Power Query
+DAX
+Dimensional Data Modeling
+Data Cleaning
+Data Transformation
+Credit Risk Analysis
+Financial Analytics
+Portfolio Risk Analysis
+KPI Development
+Business Intelligence
+Data Visualization
+Business-focused Data Storytelling
+📚 Key Credit Risk Concepts
+Probability of Default — PD
+
+The probability that a borrower will default within a specified period.
+
+Loss Given Default — LGD
+
+The percentage of exposure expected to be lost if a borrower defaults, after considering recoveries.
+
+Exposure at Default — EAD
+
+The amount of exposure expected to be outstanding when a borrower defaults.
+
+Expected Loss — EL
+
+Expected credit loss can be conceptually represented as:
+
+Expected Loss = PD × LGD × EAD
+Risk-Weighted Assets — RWA
+
+RWA represents assets adjusted for their associated credit risk and is used in capital-risk analysis.
+
+🎓 What I Learned
+
+Through this project, I strengthened my understanding of:
+
+Building Power BI data models
+Designing dimension and fact-style structures
+Creating reusable DAX measures
+Applying filter context
+Creating risk classifications
+Analyzing credit exposure
+Designing executive-level dashboards
+Converting financial data into business insights
+Presenting analytical findings through data storytelling
