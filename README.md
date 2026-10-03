@@ -341,80 +341,190 @@ Interactive Dashboard
 Business Insights
 ```
 
-📁 Repository Structure
+## 📁 Repository Structure
 
+```text
 credit-risk-loan-portfolio-analytics/
 │
-├── 📁 Dashboard/
+├── Dashboard/
 │   ├── Credit Risk & Loan Analysis.pbix
 │   ├── Executive_Overview.png
 │   └── Credit_Risk_Deep_Dive.png
 │
-├── 📁 Data/
+├── Data/
 │   ├── credit_ratings.csv
 │   ├── loan_portfolio.csv
 │   ├── macro_stress_scenarios.csv
 │   ├── portfolio_metrics.csv
 │   └── vintage_analysis.csv
 │
-├── 📁 Documentation/
+├── Documentation/
 │   ├── data_model.png
 │   └── credit_risk_column_descriptions.txt
 │
-├── 📁 DAX/
+├── DAX/
 │   └── DAX_Measures.md
 │
-└── 📄 README.md
+└── README.md
+```
 
-🚀 Skills Demonstrated
+## 🔍 Key Business Insights
 
-This project demonstrates practical experience in:
+The dashboard was designed to answer practical credit-risk and portfolio-management questions.
 
-Power BI Dashboard Development
-Power Query
-DAX
-Dimensional Data Modeling
-Data Cleaning
-Data Transformation
-Credit Risk Analysis
-Financial Analytics
-Portfolio Risk Analysis
-KPI Development
-Business Intelligence
-Data Visualization
-Business-focused Data Storytelling
-📚 Key Credit Risk Concepts
-Probability of Default — PD
+### Portfolio Exposure
 
-The probability that a borrower will default within a specified period.
+- Where is the portfolio exposure concentrated?
+- Which sectors contribute the highest EAD?
+- Which loan types represent significant portfolio exposure?
 
-Loss Given Default — LGD
+### Credit Risk
 
-The percentage of exposure expected to be lost if a borrower defaults, after considering recoveries.
+- Where is high-risk exposure concentrated?
+- Which sectors have higher high-risk exposure?
+- How is risk distributed across credit ratings?
+- How does credit score distribution vary across the portfolio?
 
-Exposure at Default — EAD
+### Default Analysis
 
-The amount of exposure expected to be outstanding when a borrower defaults.
+- Which sectors have higher defaulted exposure?
+- Which loan types have higher default rates?
+- Where is default exposure concentrated?
 
-Expected Loss — EL
+### Expected Loss
 
-Expected credit loss can be conceptually represented as:
+- Which credit ratings contribute the highest expected loss?
+- How concentrated is expected loss across the portfolio?
+- What proportion of portfolio exposure represents expected loss?
 
-Expected Loss = PD × LGD × EAD
-Risk-Weighted Assets — RWA
+---
 
-RWA represents assets adjusted for their associated credit risk and is used in capital-risk analysis.
+## 📈 Analytical Approach
 
-🎓 What I Learned
+The project follows a structured financial analytics workflow:
 
-Through this project, I strengthened my understanding of:
+1. Import raw loan and risk datasets
+2. Perform data quality checks
+3. Handle missing and inconsistent values
+4. Validate data types
+5. Create calculated columns
+6. Build dimension tables
+7. Create relationships between tables
+8. Develop DAX measures
+9. Create portfolio and risk KPIs
+10. Build interactive Power BI dashboards
+11. Analyze portfolio exposure and credit risk
+12. Extract business-focused insights
 
-Building Power BI data models
-Designing dimension and fact-style structures
-Creating reusable DAX measures
-Applying filter context
-Creating risk classifications
-Analyzing credit exposure
-Designing executive-level dashboards
-Converting financial data into business insights
-Presenting analytical findings through data storytelling
+---
+
+## 💡 Key Credit Risk Concepts
+
+This project applies several important concepts used in credit-risk and financial analytics.
+
+### Exposure at Default (EAD)
+
+EAD represents the exposure expected to be outstanding when a borrower defaults.
+
+### Probability of Default (PD)
+
+PD represents the estimated probability that a borrower will default within a specified period.
+
+### Loss Given Default (LGD)
+
+LGD represents the proportion of exposure expected to be lost after considering recoveries.
+
+### Expected Loss (EL)
+
+Expected Loss represents the expected credit loss associated with an exposure.
+
+Conceptually:
+
+**Expected Loss = PD × LGD × EAD**
+
+### Risk-Weighted Assets (RWA)
+
+RWA represents assets adjusted according to their associated credit risk and is commonly used in banking risk management and capital analysis.
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- Power BI
+- Power Query
+- DAX
+- Data Modeling
+- Data Cleaning
+- Data Transformation
+- Data Analysis
+- Financial Analytics
+- Credit Risk Analytics
+- Business Intelligence
+- Dashboard Development
+- Data Visualization
+- Business Insight Generation
+
+---
+
+## 📚 What I Learned
+
+Through this project, I strengthened my practical understanding of:
+
+- Building a structured Power BI data model
+- Designing dimension and analytical tables
+- Creating one-to-many relationships
+- Managing filter direction
+- Writing DAX measures
+- Creating calculated columns
+- Building dynamic financial KPIs
+- Analyzing credit-risk metrics
+- Designing business-focused dashboards
+- Translating financial data into actionable insights
+- Presenting analytical findings through data visualization
+
+---
+
+## 📂 Project Files
+
+The repository contains:
+
+- Power BI dashboard file
+- Raw datasets
+- Dashboard screenshots
+- Power BI data model image
+- DAX measures
+- Dataset column descriptions
+- Project documentation
+
+---
+
+## 🚀 Future Improvements
+
+Potential extensions for this project include:
+
+- Adding macroeconomic stress-testing analysis
+- Creating portfolio vintage analysis
+- Adding time-based portfolio monitoring
+- Developing interactive scenario analysis
+- Adding borrower-level risk segmentation
+- Building automated Power BI refresh workflows
+- Adding additional financial risk KPIs
+
+---
+
+## 👨‍💻 Author
+
+**Shubham Raj**
+
+Aspiring Data Analyst | Power BI | SQL | Python | Excel | Data Analytics
+
+🔗 GitHub:  
+https://github.com/shubhamraj-65
+
+---
+
+## ⭐ Project Feedback
+
+If you find this project useful or have suggestions for improving the analysis, feel free to explore the repository and share your feedback.
+
+If you like the project, consider giving the repository a ⭐.
